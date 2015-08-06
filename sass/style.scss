@@ -8,16 +8,6 @@ $secondaryColour:#002147;
 $primaryColourText:#fff;
 $secondaryColourText:#fff;
 
-// Social icons
-$facebook:#3b5998;
-$linkedin:#007bb6;
-$pinterest:#cb2027;
-$skype:#02B4EB;
-$twitter:#2caae1;
-$tumblr:#304E6C;
-$youtube:#B10503;
-$google-plus:#dd4b39;
-
 
 /* front end pages */
 
@@ -146,22 +136,22 @@ p {font-size: 14px;}
 /* footer */
 #prefooter {
     color:white;
-    height:42px;
+    //height:42px;
 }
 #footer {
     color:white;
     min-height:210px;
 }
-.footer-links  {
-	text-align:right;
+.footer-contacts  {
+	text-align:left;
     margin-top:10px;
 }
-.footer-links li {
+.footer-contacts li {
 	list-style-type:none;
 	margin-left:-40px;
 	color:white;
 }
-.footer-links a {
+.footer-contacts a {
 	color:white;
 }
 .sponsors img {
@@ -410,20 +400,21 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 /* site social icons */
 #social-links h2 {
     position: absolute;
-    margin-left: -9999px; }
-
+    margin-left: -9999px; 
+}
+#social-links {
+    margin-left:-37px;
+}
 #social-links li {
-    float: right;
-    padding: 6px 10px;
-    margin-right:0px;
-    margin-top:-3px;
+    margin-right:10px;
+    margin-top:20px;
 }
 
 #social-links li:first-child {
 }
 
 #social-links li a {
-    color: #ffffff;
+    color: #fff;
     overflow: hidden; 
  }
 
@@ -431,23 +422,8 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 }
 
 /* social icons */
-  
-#social-links .fa-facebook:hover {
-    color: $facebook; }
-#social-links .fa-linkedin:hover {
-    color: $linkedin; }
-#social-links .fa-pinterest:hover {
-    color: $pinterest; }
-#social-links .fa-skype:hover {
-    color: $skype; }
-#social-links .fa-twitter:hover {
-    color: $twitter; }
-#social-links .fa-tumblr:hover {
-    color: $tumblr; }
-#social-links .fa-youtube:hover {
-    color: $youtube; }
-#social-links .fa-google-plus:hover {
-    color: $google-plus; }
+#social-links .fa:hover {
+    color: $primaryColour; }
 #social-links .fa {
     color: #fff; }
 
@@ -484,16 +460,14 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 970px) {
-    .footer-links  {
-        text-align:left;
-        margin-top:40px;
-    }
+    .footer-contacts h4 {
+	   display:none;
+    }   
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 750px) {
 
-    
 }
 
 /* Extra Small Devices, Phones */ 

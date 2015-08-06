@@ -126,23 +126,22 @@ p {
 
 /* footer */
 #prefooter {
-  color: white;
-  height: 42px; }
+  color: white; }
 
 #footer {
   color: white;
   min-height: 210px; }
 
-.footer-links {
-  text-align: right;
+.footer-contacts {
+  text-align: left;
   margin-top: 10px; }
 
-.footer-links li {
+.footer-contacts li {
   list-style-type: none;
   margin-left: -40px;
   color: white; }
 
-.footer-links a {
+.footer-contacts a {
   color: white; }
 
 .sponsors img {
@@ -363,40 +362,20 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
   position: absolute;
   margin-left: -9999px; }
 
+#social-links {
+  margin-left: -37px; }
+
 #social-links li {
-  float: right;
-  padding: 6px 10px;
-  margin-right: 0px;
-  margin-top: -3px; }
+  margin-right: 10px;
+  margin-top: 20px; }
 
 #social-links li a {
-  color: #ffffff;
+  color: #fff;
   overflow: hidden; }
 
 /* social icons */
-#social-links .fa-facebook:hover {
-  color: #3b5998; }
-
-#social-links .fa-linkedin:hover {
-  color: #007bb6; }
-
-#social-links .fa-pinterest:hover {
-  color: #cb2027; }
-
-#social-links .fa-skype:hover {
-  color: #02B4EB; }
-
-#social-links .fa-twitter:hover {
-  color: #2caae1; }
-
-#social-links .fa-tumblr:hover {
-  color: #304E6C; }
-
-#social-links .fa-youtube:hover {
-  color: #B10503; }
-
-#social-links .fa-google-plus:hover {
-  color: #dd4b39; }
+#social-links .fa:hover {
+  color: #B9CF96; }
 
 #social-links .fa {
   color: #fff; }
@@ -440,9 +419,8 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 970px) {
-  .footer-links {
-    text-align: left;
-    margin-top: 40px; } }
+  .footer-contacts h4 {
+    display: none; } }
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */
 /* v small */
