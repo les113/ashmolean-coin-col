@@ -1,14 +1,12 @@
 
 
-<div class="headerwrap"><!-- header -->
+<div class="subpageheaderwrap"><!-- header -->
            
     <div class="container">
 
         <div class="row">
-            <div id="headersubpage">
-				<div class="sitenamebg">
-				<h1 class="sitename">Coin Hoards<br/><span class="sitename_sml">of the Roman Empire</span></h1>
-				</div>
+            <div id="headersubpage" class="col-sm-12">
+				<h1 class="sitename">The Heberden<br/>Coin Room</h1>
             </div>
         </div>
 

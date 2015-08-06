@@ -49,6 +49,9 @@ p {font-size: 14px;}
     background-repeat: no-repeat;
     background-position: center; 
 }
+.subpageheaderwrap {
+    background-color: $secondaryColour;
+}
 .prefooterwrap {
     background-color: $primaryColour;
 }
@@ -77,7 +80,7 @@ p {font-size: 14px;}
 
 
 /* header */
-#header {
+.header {
     height:390px;
     background-image: url(../img/header.jpg);
 	position:relative;
@@ -95,15 +98,21 @@ p {font-size: 14px;}
 	color: $secondaryColourText;
 	font-size: 60px;
 }
-
 #headersubpage {
-    height:140px;
-    background-image: url(../img/subpageHeader.jpg);
+    height:195px;
 	position:relative;
+    background-image: url(../img/subpageheaderimg.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
 }
 #headersubpage .sitenamebg {
 	position:absolute;
 	right:0px;
+	top:0px;
+}
+#headersubpage .sitename {
+	position:absolute;
+	left:0px;
 	top:0px;
 }
  
@@ -136,8 +145,8 @@ p {font-size: 14px;}
 }
 
 /* carousel */
-.owl-carousel img {
-
+.owl-item h3 {
+    text-align: right; 
 }
 
 /* footer */
@@ -462,36 +471,38 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 /* responsive adjustments */
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1170px) {
+@media only screen and (max-width : 1200px) {
 
     
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 970px) {
+@media only screen and (max-width : 992px) {
     .footer-contacts h4 {
 	   display:none;
     }   
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 750px) {
-
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
-
-}
-
-/* v small */ 
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 768px) {
 
 }
 
 /* other */
-@media only screen and (min-width : 750px) {
+@media only screen and (min-width : 768px) {
     .navbar-nav {
         float: right;
     }
+}
+@media only screen and (min-width : 992px) and (max-width : 1200px) {
+    #headersubpage .sitename {
+        font-size: 46px;
+        top:24px;
+    }
+}
+@media only screen and (max-width : 992px) {
+    #headersubpage {
+        background:none;
+    }
+
 }

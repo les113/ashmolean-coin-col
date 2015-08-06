@@ -61,7 +61,7 @@
             
             <div id="homepage_contribute" class="col-xs-6 col-md-3">
                 <a href="">
-                    <img src="img/imgplaceholder.jpg" alt=""/>
+                    <img src="img/contribute.jpg" alt=""/>
                     <div class="headingBg"><h2>Contribute</h2><span class="fa fa-chevron-right"></span></div>
                 </a>
             </div>	
