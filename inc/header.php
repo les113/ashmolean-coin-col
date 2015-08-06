@@ -7,7 +7,7 @@
         <div class="row">
             <div id="header" class="col-sm-6">
 				<div class="sitelogo">
-					<img alt="Ashmolean Museum Logo" src="img/ashmolean_logo.png"/>
+					<a href="http://www.thisdomain.co.uk"><img alt="Ashmolean Museum Logo" src="img/ashmolean_logo.png"/></a>
 				</div>
 				<div class="sitenamebg">
 					<h1 class="sitename">The Heberden<br/>Coin Room</h1>
