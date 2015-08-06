@@ -13,7 +13,7 @@
 					<h1 class="sitename">The Heberden<br/>Coin Room</h1>
 				</div>
 			</div>
-            <div class="header col-sm-6">
+            <div class="header slideshow col-sm-6">
                     <div class="cycle-slideshow" data-cycle-fx="scrollHorz">
                         <div class="cycle-pager"></div>"
                         <img src="img/headslide1.jpg" alt="Oxford Crown">

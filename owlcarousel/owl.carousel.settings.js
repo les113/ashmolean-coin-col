@@ -5,7 +5,7 @@
                 margin:20,
                 merge:true,
                 nav:true, 
-                navText:['prev','next'],
+                navText:['&nbsp;','&nbsp;'],
                 responsive:{
                     0:{
                         items:2,

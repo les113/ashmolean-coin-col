@@ -23,7 +23,7 @@ h1, h2, h3, h4, h4, h5, h6 {
     letter-spacing: 1px;
 }
 h1 {font-size: 24px;}
-h2 {font-size: 20px;  color:$primaryColour;}
+h2 {font-size: 20px; color:$primaryColour;}
 h3 {font-size: 18px; color:$emphasisColour;}
 h4 {font-size: 16px;}
 h5 {font-size: 14px;}
@@ -82,13 +82,12 @@ p {font-size: 14px;}
 /* header */
 .header {
     height:390px;
-    background-image: url(../img/header.jpg);
 	position:relative;
 }
 .sitelogo {
     position:absolute; 
     top:0px;
-    padding: 44px 20px 45px 20px;
+    padding: 44px 20px 45px 0px;
     background-color: $primaryColour;
 }
 .sitename {
@@ -149,6 +148,28 @@ p {font-size: 14px;}
     text-align: right; 
 }
 
+.owl-prev:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e079";
+    font-size: 30px;
+    color: $primaryColour;
+    float: left;
+    position: absolute;
+    top: 46px;
+    left: -30px;
+}
+
+.owl-next:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e080";
+    float: left;
+    font-size: 30px;
+    color: $primaryColour;
+    position: absolute;
+    top: 46px;
+    right: -30px;
+}
+
 /* footer */
 #prefooter {
     color:white;
@@ -160,6 +181,9 @@ p {font-size: 14px;}
     background-image: url(../img/oxcrown-blue.png);
     background-position: right;
     background-repeat: no-repeat;
+}
+#footer h4 {
+    font-size: 20px;
 }
 .footer-logo {
     margin-top:20px;
@@ -187,13 +211,25 @@ p {font-size: 14px;}
 
 
 /* homepage */
-#homepage_featured {
-    float:left;
-}
 #homepage_featured img {
     width:100%;
     margin-bottom:15px;
 }
+.featImgOvly:after {
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.4);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.featImgOvly:hover:after {
+    opacity:1;
+}
+
+
 #homepage_contribute img {
     width:100%;
 }
@@ -472,8 +508,21 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
-    
+    .headerwrap {
+        background-image: url(../img/header_bg2.png);
+        background-repeat: no-repeat;
+        background-position: center; 
+    } 
+    .sitelogo {
+        position:absolute; 
+        top:0px;
+        padding: 42px 0px 45px 0px;
+        background-color: $primaryColour;
+    }
+    .sitename {
+        top:220px;
+        font-size: 48px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -481,11 +530,28 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
     .footer-contacts h4 {
 	   display:none;
     }   
+    .sitelogo img {
+        width:340px;
+        height:auto;
+    }
+    .sitename {
+        top:200px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    .header.slideshow {
+        display:none;
+    }
+    .headerwrap {
+        background-image: url(../img/header_bg2.png);
+        background-repeat: no-repeat;
+        background-position: left; 
+    } 
+    .sitename {
+        top:220px;
+    }
 }
 
 /* other */

@@ -25,7 +25,9 @@
                     <div class="col-xs-6">
                         <a href="">
                             <div class="headingBg"><h2>About</h2><span class="fa fa-chevron-right"></span></div>
-                            <img src="img/feat1.jpg" alt=""/>
+                            <span class="featImgOvly">
+                                <img src="img/feat1.jpg" alt="" />
+                            </span>
                         </a>
                     </div>
                     <div class="col-xs-6">
@@ -34,6 +36,7 @@
                             <img src="img/feat2.jpg" alt=""/>
                         </a>
                     </div>
+                    <div class="clearfix"></div>
                     <div class="col-xs-6">
                         <a href="">
                             <div class="headingBg"><h2>Services</h2><span class="fa fa-chevron-right"></span></div>
@@ -150,11 +153,5 @@
     <div class="marginTop clearfix"></div>
     <?php include('inc/footer.php') ?>	
  
-      <!-- owl carousel -->
-      <scipt>
-          $(document).ready(function(){
-              $(".owl-carousel").owlCarousel();
-            });
-      </scipt>
   </body>
 </html>
