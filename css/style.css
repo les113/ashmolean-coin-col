@@ -16,7 +16,8 @@ h2 {
   color: #B9CF96; }
 
 h3 {
-  font-size: 18px; }
+  font-size: 18px;
+  color: #69913B; }
 
 h4 {
   font-size: 16px; }
@@ -53,7 +54,7 @@ p {
 /* menu */
 .navbar {
   margin-bottom: 0;
-  z-index: 99;
+  z-index: 9999;
   background-color: white;
   border-color: white; }
 
@@ -124,6 +125,7 @@ p {
   width: 70px;
   z-index: 9999; }
 
+/* carousel */
 /* footer */
 #prefooter {
   color: white; }
@@ -162,28 +164,33 @@ p {
   float: left; }
 
 #homepage_featured img {
-  width: 80px;
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 10px; }
+  width: 100%;
+  margin-bottom: 15px; }
 
 #homepage_contribute img {
   width: 100%; }
 
+#homepage_featured .headingBg {
+  background-color: #B9CF96; }
+
+#homepage_news .headingBg {
+  background-color: #002147; }
+
+#homepage_contribute .headingBg {
+  background-color: #69913B; }
+
 .headingBg {
-  background-color: #B9CF96;
   min-height: 50px;
   width: 100%; }
 
-.headingBg a:hover, .headingBg:hover {
-  text-decoration: none;
-  background-color: #002147; }
+#homepage_featured a:hover, #homepage_news a:hover, #homepage_contribute a:hover {
+  text-decoration: none; }
 
 .headingBg h2 {
   color: white;
   padding-top: 15px;
   padding-left: 10px;
-  margin-top: 0; }
+  margin: 0; }
 
 #homepage_contribute .headingBg span {
   color: white;
@@ -191,7 +198,7 @@ p {
   bottom: 25px;
   right: 25px; }
 
-#homepage_news .headingBg span {
+#homepage_featured .headingBg span, #homepage_news .headingBg span {
   color: white;
   position: absolute;
   top: 20px;
@@ -375,12 +382,12 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
   color: #fff;
   overflow: hidden; }
 
-/* social icons */
 #social-links .fa:hover {
   color: #B9CF96; }
 
 #social-links .fa {
-  color: #fff; }
+  color: #fff;
+  font-size: 1.4em; }
 
 /* buttons */
 .btn.add {

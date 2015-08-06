@@ -7,6 +7,7 @@ $primaryColour:#B9CF96;
 $secondaryColour:#002147;
 $primaryColourText:#fff;
 $secondaryColourText:#fff;
+$emphasisColour:#69913B;
 
 
 /* front end pages */
@@ -23,7 +24,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 h1 {font-size: 24px;}
 h2 {font-size: 20px;  color:$primaryColour;}
-h3 {font-size: 18px;}
+h3 {font-size: 18px; color:$emphasisColour;}
 h4 {font-size: 16px;}
 h5 {font-size: 14px;}
 h6 {font-size: 12px;}
@@ -58,7 +59,7 @@ p {font-size: 14px;}
 /* menu */
 .navbar {
     margin-bottom:0;
-    z-index:99;
+    z-index:9999;
     background-color: white;
     border-color: white;
 }
@@ -133,6 +134,12 @@ p {font-size: 14px;}
     width:70px;
     z-index:9999;
 }
+
+/* carousel */
+.owl-carousel img {
+
+}
+
 /* footer */
 #prefooter {
     color:white;
@@ -175,31 +182,33 @@ p {font-size: 14px;}
     float:left;
 }
 #homepage_featured img {
-    width:80px;
-    float:left;
-    margin-right:10px;
-    margin-bottom:10px;
-}
-#homepage_featured .teasertext p {
-
+    width:100%;
+    margin-bottom:15px;
 }
 #homepage_contribute img {
     width:100%;
 }
-.headingBg {
+#homepage_featured .headingBg {
     background-color: $primaryColour;
+}
+#homepage_news .headingBg {
+    background-color: $secondaryColour;
+}
+#homepage_contribute .headingBg {
+    background-color: $emphasisColour;
+}
+.headingBg {
     min-height:50px;
     width:100%;
 }
-.headingBg a:hover, .headingBg:hover  {
+#homepage_featured a:hover, #homepage_news a:hover, #homepage_contribute a:hover {
     text-decoration: none;
-    background-color: $secondaryColour;
 }
 .headingBg h2{
     color:white;
     padding-top:15px;
     padding-left:10px;
-    margin-top:0;
+    margin:0;
 }
 #homepage_contribute .headingBg span {
     color:white;
@@ -207,7 +216,7 @@ p {font-size: 14px;}
     bottom:25px;
     right:25px;
 }
-#homepage_news .headingBg span {
+#homepage_featured .headingBg span, #homepage_news .headingBg span {
     color:white;
     position:absolute;
     top:20px;
@@ -411,23 +420,21 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
     margin-right:10px;
     margin-top:20px;
 }
-
 #social-links li:first-child {
 }
-
 #social-links li a {
     color: #fff;
     overflow: hidden; 
  }
-
 #social-links li a::before {
 }
-
-/* social icons */
 #social-links .fa:hover {
-    color: $primaryColour; }
+    color: $primaryColour; 
+}
 #social-links .fa {
-    color: #fff; }
+    color: #fff; 
+    font-size: 1.4em;
+}
 
 
 /* buttons */

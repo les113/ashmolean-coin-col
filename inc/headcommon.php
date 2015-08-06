@@ -63,3 +63,8 @@
 
     <!-- slideshow -->
     <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="owlcarousel/owl.carousel.settings.js"></script>
