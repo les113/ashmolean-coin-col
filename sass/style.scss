@@ -155,8 +155,11 @@ p {font-size: 14px;}
     color: $primaryColour;
     float: left;
     position: absolute;
-    top: 46px;
+    top: 22px;
     left: -30px;
+    padding:20px;
+    background-color: white;
+    opacity: 0.8;
 }
 
 .owl-next:before {
@@ -166,9 +169,13 @@ p {font-size: 14px;}
     font-size: 30px;
     color: $primaryColour;
     position: absolute;
-    top: 46px;
+    top: 22px;
     right: -30px;
+    padding:20px;
+    background-color: white;
+    opacity: 0.8;
 }
+
 
 /* footer */
 #prefooter {
@@ -258,7 +265,7 @@ p {font-size: 14px;}
 #homepage_contribute .headingBg span {
     color:white;
     position:absolute;
-    bottom:25px;
+    bottom:18px;
     right:25px;
 }
 #homepage_featured .headingBg span, #homepage_news .headingBg span {
@@ -550,7 +557,18 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
         background-position: left; 
     } 
     .sitename {
-        top:220px;
+        top:220px; 
+    }
+    .owl-prev:before {
+        left: 0px;
+        padding:20px;
+        background-color: white;
+    }
+
+    .owl-next:before {
+        right: 0px;
+        padding:20px;
+        background-color: white;
     }
 }
 
