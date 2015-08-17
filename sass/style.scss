@@ -442,6 +442,10 @@ td, th {
     border:1px solid $primaryColour;
     border-radius: 0;
 }
+.form-horizontal .form-group {
+    margin-left: -45px;
+}
+
 
 /* map */
 
@@ -551,6 +555,9 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
         top:220px;
         font-size: 48px;
     }
+    .form-horizontal .form-group {
+        margin-left: -40px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -564,6 +571,13 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
     }
     .sitename {
         top:200px;
+    }
+    #headersubpage .sitename {
+        top:20px;
+        left:20px;
+    }
+    .form-horizontal .form-group {
+        margin-left: -60px;
     }
 }
 
@@ -587,12 +601,8 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
     .owl-next:before {
         right: 0px;
     }
-    .navbar {
-        position:fixed;
-        width:100%;
-    }
-    #headersubpage {
-        margin-top: 50px;
+    .form-horizontal .form-group {
+        margin-left: 5px;
     }
 }
 
