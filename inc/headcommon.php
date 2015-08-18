@@ -68,3 +68,7 @@
     <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
     <script src="owlcarousel/owl.carousel.min.js"></script>
     <script src="owlcarousel/owl.carousel.settings.js"></script>
+
+    <!-- mob menu animate -->
+
+    <script src="js/menu.js"></script>
