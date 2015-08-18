@@ -70,5 +70,28 @@
     <script src="owlcarousel/owl.carousel.settings.js"></script>
 
     <!-- mob menu animate -->
-
     <script src="js/menu.js"></script>
+
+
+    <!-- To Top scripts -->
+	<!-- the necessary css for UItoTop -->	
+	<link rel="stylesheet" type="text/css" media="screen,projection" href="jquery.ui.totop/css/ui.totop.css" />
+	<!-- easing plugin ( optional ) -->
+	<script src="jquery.ui.totop/js/jquery.easing.js" type="text/javascript"></script>
+	<!-- UItoTop plugin -->
+	<script src="jquery.ui.totop/js/jquery.ui.totop.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+	  			containerID: 'moccaUItoTop', // fading element id
+				containerHoverClass: 'moccaUIhover', // fading element hover class
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+	 		};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
