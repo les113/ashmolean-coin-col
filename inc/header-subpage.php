@@ -3,13 +3,13 @@
 <div class="subpageheaderwrap"><!-- header -->
            
     <div class="container">
-
-        <div class="row">
-            <div id="headersubpage" class="col-sm-12">
-				<h1 class="sitename">The Heberden<br/>Coin Room</h1>
+        <header>
+            <div class="row">
+                <div id="headersubpage" class="col-sm-12">
+                    <h1 class="sitename">The Heberden<br/>Coin Room</h1>
+                </div>
             </div>
-        </div>
-
+        </header>
     </div> <!-- end container -->
         
 </div> <!-- end wrapper -->

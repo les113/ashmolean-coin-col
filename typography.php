@@ -28,7 +28,7 @@
                 <h5>Heading 5 14px Times New Roman</h5>
                 <h6>Heading 6 12px Times New Roman</h6>
                 <p>Paragraph - 14px Google Font ‘Hind’</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique id mauris nec porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam vestibulum nulla in tincidunt. Ut leo diam, molestie a dapibus nec, gravida in tortor. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique id mauris nec porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam vestibulum nulla in tincidunt. Ut leo diam, molestie a dapibus nec, gravida in tortor. </p>
             </div>	
         </div>           
     </div><!-- end page container -->   

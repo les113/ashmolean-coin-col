@@ -72,6 +72,9 @@ p {
   background-color: #B9CF96;
   color: white; }
 
+.navbar-default .navbar-collapse {
+  border: none; }
+
 /* header */
 .header {
   height: 390px;
@@ -104,7 +107,7 @@ p {
 #headersubpage .sitename {
   position: absolute;
   left: 0px;
-  top: 0px; }
+  top: 10px; }
 
 /* slideshow */
 .cycle-slideshow img {
@@ -198,21 +201,21 @@ p {
   width: 100%;
   margin-bottom: 15px; }
 
-.featImgOvly:after {
-  content: '\A';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.4);
-  opacity: 0;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s; }
-
-.featImgOvly:hover:after {
-  opacity: 1; }
-
+/* image hover overlay - need to fix this 
+.imgOvly:after {
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.4);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.imgOvly:hover:after {
+    opacity:1;  
+}
+*/
 #homepage_contribute img {
   width: 100%; }
 #homepage_contribute .headingBg {
@@ -517,6 +520,10 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 
   .form-horizontal .form-group {
     margin-left: 5px; } }
+/* small phones */
+@media only screen and (max-width: 480px) {
+  #headersubpage .sitename {
+    top: 0px; } }
 /* other */
 @media only screen and (min-width: 768px) {
   .navbar-nav {
