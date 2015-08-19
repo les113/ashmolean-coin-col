@@ -21,39 +21,6 @@
     <!-- Bootstrap JavaScript plugins -->
     <script src="bootstrap-3.3.1/js/bootstrap.min.js"></script>
 
-    <!-- jqueryui map date slider -->
-      <script>
-      $(function() {
-        $( "#slider" ).slider({
-          value:100,
-          min: -500,
-          max: 500,
-          step: 100,
-          slide: function( event, ui ) {
-            $( "#year" ).val( "AD" + ui.value );
-          }
-        });
-        $( "#year" ).val( "AD" + $( "#slider" ).slider( "value" ) );
-      });
-      </script>
-
-    <!-- jqueryui range slider -->
-      <script>
-      $(function() {
-        $( "#slider-range" ).slider({
-          range: true,
-          min: -500,
-          max: 500,
-          values: [ 75, 300 ],
-          slide: function( event, ui ) {
-            $( "#range" ).val( "BC" + ui.values[ 0 ] + " - AD" + ui.values[ 1 ] );
-          }
-        });
-        $( "#range" ).val( "BC" + $( "#slider-range" ).slider( "values", 0 ) +
-          " - AD" + $( "#slider-range" ).slider( "values", 1 ) );
-      });
-      </script>
-
     <!--- jqueryui tabs -->
       <script>
       $(function() {
@@ -61,7 +28,7 @@
       });
       </script>
 
-    <!-- slideshow -->
+    <!-- slideshow http://jquery.malsup.com/cycle2/ -->
     <script src="http://malsup.github.com/jquery.cycle2.js"></script>
 
     <!-- owl carousel -->
@@ -84,3 +51,36 @@
 			$().UItoTop({ easingType: 'easeOutQuart' });
 		});
 	</script>
+
+    <!-- jqueryui map date slider -->
+      <script>
+      $(function() {
+        $( "#slider" ).slider({
+          value:100,
+          min: -500,
+          max: 500,
+          step: 100,
+          slide: function( event, ui ) {
+            $( "#year" ).val( "AD" + ui.value );
+          }
+        });
+        $( "#year" ).val( "AD" + $( "#slider" ).slider( "value" ) );
+      });
+      </script>
+
+    <!-- jqueryui map date range slider -->
+      <script>
+      $(function() {
+        $( "#slider-range" ).slider({
+          range: true,
+          min: -500,
+          max: 500,
+          values: [ 75, 300 ],
+          slide: function( event, ui ) {
+            $( "#range" ).val( "BC" + ui.values[ 0 ] + " - AD" + ui.values[ 1 ] );
+          }
+        });
+        $( "#range" ).val( "BC" + $( "#slider-range" ).slider( "values", 0 ) +
+          " - AD" + $( "#slider-range" ).slider( "values", 1 ) );
+      });
+      </script>
