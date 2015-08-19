@@ -5,11 +5,13 @@
     <link rel="stylesheet" href="bootstrap-3.3.1/css/bootstrap.min.css" >
     <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css" >
 
-    <!-- stylesheets -->
-    <link rel="stylesheet" href="css/style.css">
-
     <!-- fonts -->
     <link href='http://fonts.googleapis.com/css?family=Hind:600,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/romancaps_regular_macroman/stylesheet.css">
+    <link rel="stylesheet" href="css/webfontkit-20150819-095235/stylesheet.css">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
