@@ -15,12 +15,12 @@
                 </div>
                 <div class="header slideshow col-sm-6">
                         <div class="cycle-slideshow" data-cycle-fx="scrollHorz">
-                            <div class="cycle-pager"></div>"
-                            <img src="img/headslide1.jpg" alt="Oxford Crown">
-                            <img src="img/headslide2.jpg" alt="Oxford Crown">
-                            <img src="img/headslide3.jpg" alt="Oxford Crown">
-                            <img src="img/headslide4.jpg" alt="Oxford Crown">
-                            <img src="img/headslide5.jpg" alt="Oxford Crown">
+                            <div class="cycle-pager"></div>
+                            <img src="img/headslide1.jpg" alt="Oxford Crown"/>
+                            <img src="img/headslide2.jpg" alt="Oxford Crown"/>
+                            <img src="img/headslide3.jpg" alt="Oxford Crown"/>
+                            <img src="img/headslide4.jpg" alt="Oxford Crown"/>
+                            <img src="img/headslide5.jpg" alt="Oxford Crown"/>
                         </div>
                         <div class="ovly"></div>
                 </div>
