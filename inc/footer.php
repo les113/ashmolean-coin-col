@@ -36,7 +36,7 @@
 						<h4>&nbsp;</h4>
 							<p>T: +44 (0)1865 278058<br/>
 							F: +44 (0)1865 278057<br/>
-							E: <a href="mailto: coin-room@ashmus.ox.ac.uk">coin-room@ashmus.ox.ac.uk</a></p>
+							E: <a href="mailto:coin-room@ashmus.ox.ac.uk">coin-room@ashmus.ox.ac.uk</a></p>
 					  </div>
 				</div>
                 

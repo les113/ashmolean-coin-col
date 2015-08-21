@@ -16,7 +16,7 @@
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-    <!-- jqueryUI --->
+    <!-- jqueryUI -->
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
     <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 
@@ -43,7 +43,7 @@
 
     <!-- To Top scripts http://www.mattvarone.com/web-design/uitotop-jquery-plugin/ -->
 	<!-- the necessary css for UItoTop -->	
-	<link rel="stylesheet" type="text/css" media="screen,projection" href="jquery.ui.totop/css/ui.totop.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="jquery.ui.totop/css/ui.totop.css" />
 	<!-- easing plugin ( optional ) -->
 	<script src="jquery.ui.totop/js/jquery.easing.js" type="text/javascript"></script>
 	<!-- UItoTop plugin -->
