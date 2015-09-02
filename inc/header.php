@@ -10,7 +10,7 @@
                         <a href="http://www.thisdomain.co.uk"><img alt="Ashmolean Museum Logo" src="img/ashmolean_logo.png"/></a>
                     </div>
                     <div class="sitenamebg">
-                        <h1 class="sitename">The Heberden<br/>Coin Room</h1>
+                        <span class="sitename">The Heberden<br/>Coin Room</span>
                     </div>
                 </div>
                 <div class="header slideshow col-sm-6">

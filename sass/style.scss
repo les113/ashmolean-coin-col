@@ -1,4 +1,5 @@
 // fonts
+$sitenameFontFamily: 'Hind', sans-serif;
 $headingFontFamily: "Times New Roman", Times, serif;
 $standardFontFamily: 'Hind', sans-serif;
 
@@ -8,7 +9,7 @@ $secondaryColour:#002147;
 $primaryColourText:#fff;
 $secondaryColourText:#fff;
 $emphasisColour:#69913B;
-
+ 
 
 /* front end pages */
 
@@ -103,10 +104,12 @@ p {font-size: 14px;}
 }
 .sitename {
 	position:absolute;
-	top:206px;
-	font-family: 'roman_sdregular';
 	color: $secondaryColourText;
-	font-size: 60px;
+	top:225px;
+    font-family:$sitenameFontFamily;
+	font-size: 80px;
+    line-height: 80px;
+    
 }
 #headersubpage {
     height:195px;
@@ -561,8 +564,9 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
         padding: 40px 0px 0px 0px;
     }
     .sitename {
-        top:220px;
-        font-size: 48px;
+        top:225px;
+        font-size: 76px;
+        line-height: 80px;  
     }
     .form-horizontal .form-group {
         margin-left: -40px;
@@ -580,7 +584,9 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
         padding-top:10px;
     }
     .sitename {
-        top:200px;
+        top:230px;
+        font-size: 60px;
+        line-height: 70px;  
     }
     #headersubpage .sitename {
         top:20px;
@@ -609,7 +615,10 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
         padding-top:0px;
     }
     .sitename {
-        top:190px; 
+        top:200px;
+        font-size: 76px;
+        line-height: 80px;  
+        
     }
     .owl-prev:before {
         left: 0px;
@@ -630,7 +639,9 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 /* small phones */
 @media only screen and (max-width : 480px) {
     .sitename {
-        top:170px; 
+        top:200px;
+        font-size: 60px;
+        line-height: 70px;  
     }
     #headersubpage .sitename {
         top:0px; 
