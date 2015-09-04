@@ -659,6 +659,10 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
     .navbar-nav {
         float: right;
     }
+    .navbar-collapse {
+        padding-left: 0;
+        padding-right: 0;
+    }    
 }
 @media only screen and (min-width : 992px) and (max-width : 1200px) {
 
