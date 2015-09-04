@@ -110,11 +110,9 @@ p {
 
 #headersubpage .sitenamebg {
   position: absolute;
-  right: 0px;
   top: 0px; }
 #headersubpage .sitename {
   position: absolute;
-  left: 0px;
   top: 28px; }
 
 /* slideshow */
@@ -505,7 +503,7 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
     padding-top: 10px; }
 
   .sitename {
-    top: 320px;
+    top: 230px;
     font-size: 60px;
     line-height: 70px; }
 
