@@ -95,10 +95,11 @@ p {
 
 .sitename {
   position: absolute;
-  top: 206px;
-  font-family: 'roman_sdregular';
   color: #fff;
-  font-size: 60px; }
+  top: 225px;
+  font-family: "Hind", sans-serif;
+  font-size: 80px;
+  line-height: 80px; }
 
 #headersubpage {
   height: 195px;
@@ -109,12 +110,10 @@ p {
 
 #headersubpage .sitenamebg {
   position: absolute;
-  right: 0px;
   top: 0px; }
 #headersubpage .sitename {
   position: absolute;
-  left: 0px;
-  top: 10px; }
+  top: 28px; }
 
 /* slideshow */
 .cycle-slideshow img {
@@ -482,8 +481,14 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
     padding: 40px 0px 0px 0px; }
 
   .sitename {
-    top: 220px;
-    font-size: 48px; }
+    top: 225px;
+    font-size: 76px;
+    line-height: 80px; }
+
+  #headersubpage .sitename {
+    top: 32px;
+    font-size: 65px;
+    line-height: 70px; }
 
   .form-horizontal .form-group {
     margin-left: -40px; } }
@@ -498,11 +503,12 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
     padding-top: 10px; }
 
   .sitename {
-    top: 200px; }
+    top: 230px;
+    font-size: 60px;
+    line-height: 70px; }
 
   #headersubpage .sitename {
-    top: 20px;
-    left: 20px; }
+    top: 32px; }
 
   .form-horizontal .form-group {
     margin-left: -60px; } }
@@ -524,7 +530,12 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
     padding-top: 0px; }
 
   .sitename {
-    top: 190px; }
+    top: 200px;
+    font-size: 76px;
+    line-height: 80px; }
+
+  #headersubpage .sitename {
+    left: 20px; }
 
   .owl-prev:before {
     left: 0px; }
@@ -541,18 +552,22 @@ span.ui-slider-handle.ui-state-default.ui-corner-all {
 /* small phones */
 @media only screen and (max-width: 480px) {
   .sitename {
-    top: 170px; }
+    top: 200px;
+    font-size: 60px;
+    line-height: 70px; }
 
   #headersubpage .sitename {
-    top: 0px; } }
+    top: 34px;
+    font-size: 60px;
+    line-height: 65px; } }
 /* other */
 @media only screen and (min-width: 768px) {
   .navbar-nav {
-    float: right; } }
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  #headersubpage .sitename {
-    font-size: 46px;
-    top: 24px; } }
+    float: right; }
+
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0; } }
 @media only screen and (max-width: 992px) {
   #headersubpage {
     background: none; } }

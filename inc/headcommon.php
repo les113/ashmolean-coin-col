@@ -53,3 +53,7 @@
 			$().UItoTop({ easingType: 'easeOutQuart' });
 		});
 	</script>
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master

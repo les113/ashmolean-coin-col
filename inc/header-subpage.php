@@ -4,11 +4,13 @@
            
     <div class="container">
         <header>
-            <div class="row">
-                <div id="headersubpage" class="col-sm-12">
-                    <h1 class="sitename">The Heberden<br/>Coin Room</h1>
+                <div id="headersubpage" >
+                    <div class="row">
+                        <div class="col-sm-12">
+                    <span class="sitename">The Heberden<br/>Coin Room</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </header>
     </div> <!-- end container -->
         

@@ -10,11 +10,11 @@
                         <a href="http://www.thisdomain.co.uk"><img alt="Ashmolean Museum Logo" src="img/ashmolean_logo.png"/></a>
                     </div>
                     <div class="sitenamebg">
-                        <h1 class="sitename">The Heberden<br/>Coin Room</h1>
+                        <span class="sitename">The Heberden<br/>Coin Room</span>
                     </div>
                 </div>
                 <div class="header slideshow col-sm-6">
-                        <div class="cycle-slideshow" data-cycle-fx="scrollHorz">
+                        <div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-speed="1500">
                             <div class="cycle-pager"></div>
                             <img src="img/headslide1.jpg" alt="Oxford Crown"/>
                             <img src="img/headslide2.jpg" alt="Oxford Crown"/>
